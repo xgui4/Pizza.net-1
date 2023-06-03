@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    background: linear-gradient(to right,skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+h1 {
+    color: #000000;
+    text-align: left;
+}
+
+h2 {
+    color: #1d1c1c;
+    text-align: left;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
+ul {
+    list-style-type: square;
+}
