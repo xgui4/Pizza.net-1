@@ -14,13 +14,23 @@
     <link rel="stylesheet" href="style.css">
     <!-- Ceci est le meilleur site au monde -->
     <style blue ></style>
-
     <h1> Pizza.net</h1>    
-    <hr>    
-    <iframe width=1500 src="pub.html"></iframe>
+    <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+    <div class="center">
+      <iframe width="800" height="315" src="pub.html"></iframe>
+    </div>
+    <br>
     <h2>Ce site a comme sujet les pizza </h2>
    <h3><a href="page2.html"> Page 2 </a></h3> 
     <h3><a href="interntesting.html"> PlaceHolder </a></h3> 
+    <h3><a href="interntesting2.html"> PlaceHolder 2 </a></h3> 
     <h3><a href="tbd.html"> PlaceHolder 3 </a></h3> 
     <h3><a href="pub.html"> Pub </a></h3> 
     <h3><a href="background.jpg"> Background </a></h3> 
@@ -88,11 +98,11 @@
          <button onclick="doSomething()" style="background-color:#333333;color:#00FF00;border-radius:5px">click me!</button>
         </a>
         
-        <p id="test">Hello</p>
+        <p id="test">Quele est la meilleur saveur de pizza.</p>
 
         <script>
             function doSomething(){
-                document.getElementById("test").innerHTML = "Goodbye";
+                document.getElementById("test").innerHTML = "C'est à vous de choisir";
             }
         </script>
          <button disabled>click me [coming soon] </button>

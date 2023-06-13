@@ -1,4 +1,10 @@
 /* styles.css */
+<style>
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
 body {
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     background: linear-gradient(to right,purple, rgb(255, 15, 255));
@@ -6,6 +12,10 @@ body {
     background-attachment: fixed; 
 }
 
+div {
+    color:white;
+    text-align: center
+}
 h1 {
     color: #ffffff;
     text-align: center;
